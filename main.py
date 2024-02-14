@@ -45,6 +45,7 @@ print (os.environ['TW_AUTH_TOKEN'])
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
 account_sid = 'AC539006afe824de805e3cd12db79657cb'
+#auth_token = 'c835e47c47bfe6d294961b218148c95f'
 auth_token = os.environ['TW_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
 umbrella_message = "It is going to rain today, Take an umbrella"
